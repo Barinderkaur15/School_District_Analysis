@@ -23,13 +23,13 @@ As seen above the result changes like 0.03 for math and 0.20 for reading , which
 
  **How is the school summary affected?**
  
-The school summary is based on Per school performance ,  to calculate this we use group function which divides the dataset based on preschool , performs the function and regroups the summary again .The only difference which is noticed by masking the scores are in Thomas high data set  <br/>
+The school summary is based on Per school performance ,  to calculate this we use group function which divides the dataset based on preschool , performs the function and regroups the summary again .The only difference which is noticed by masking the scores are in Thomas high data set <br/>
 
-**How does removing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools? **
+**How does removing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?**
 
 For  Thomas high masking the reading and math score affects the overall school summary in the following way : The average math score and reading score both changed , np.nan decreases passing math  %  by 26 .9% and reading  by 26.8 % and in turn reduces  overall passing by  26.9 % <br/>
 
-**How does removing the ninth-grade scores affect the Math and Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type? **
+**How does removing the ninth-grade scores affect the Math and Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type?**
 
 **1**: For Thomas high earlier math_score_by_grade for 9th graders is equal to 83.59 but after adding NaN the result is 
 Thomas High School	NaN	83.087886	83.498795	83.497041  <br/>
