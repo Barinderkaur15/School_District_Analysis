@@ -7,7 +7,7 @@ Adding NAN TO the Data set has affected analysis the following way :
 A total of 461 rows were affected and values for these entries under reading and math were changed to NAN 
 
 
-######•	How is the district summary affected?
+######•	** How is the district summary affected? **
 When the scores  were present in data set  we were getting the following result :
 Total Schools	Total Students	Total Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing
 0	15	39170	24649428	78.985371	81.87784	74.980853	85.805463	80.393158
